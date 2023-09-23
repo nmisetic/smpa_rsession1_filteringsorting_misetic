@@ -163,8 +163,11 @@ impeach %>%
 
 ```{r}
 
+impeach %>% 
+  filter(for_impeachment=="YES") %>% 
+  filter(date_year<2019) %>% 
+  arrange(desc(clinton_percent))
 
-
-
+# I created a pipe where I filtered for YES impeachment votes and then dates with years prior to 2019. Then, I arranged the data by Clinton's highest vote percentages, specifying in the code to arrange by descent
 
 ```
