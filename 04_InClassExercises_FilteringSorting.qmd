@@ -99,9 +99,11 @@ impeach %>%
 
 ```{r}
 
+impeach %>%
+  filter(for_impeachment=="YES") %>% 
+  filter(clinton_percent>70)
 
-
-
+# I created a new pipe, filtered by Yes votes, and then filtered for Clinton district victories greater 70%
 
 ```
 
