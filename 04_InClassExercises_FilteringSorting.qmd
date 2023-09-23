@@ -86,9 +86,12 @@ impeach %>%
 
 ```{r}
 
+impeach %>% 
+  filter(date_month==9) %>% 
+  filter(date_year==2019) %>%
+  filter(for_impeachment=="YES")
 
-
-
+# I created a new pipe, filtered by month (September/9), year (2019), and finally yes votes
 
 ```
 
