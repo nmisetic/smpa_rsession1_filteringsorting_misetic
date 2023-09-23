@@ -137,9 +137,12 @@ Then filter those records by only those whose bachelor's percentage is below the
 
 ```{r}
 
+impeach %>% 
+  filter(for_impeachment=="NO") %>% 
+  arrange(pct_bachelors) %>% 
+  filter(pct_bachelors_compared_to_national=="BELOW")
 
-
-
+# I used the same code for Question 7, followed by filtering for bachelor's percentages below the national average
 
 
 ```
