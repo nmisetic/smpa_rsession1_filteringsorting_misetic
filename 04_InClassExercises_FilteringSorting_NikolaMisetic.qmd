@@ -151,9 +151,11 @@ impeach %>%
 
 ```{r}
 
+impeach %>% 
+  filter(state=="NJ") %>% 
+  filter(for_impeachment=="NO")
 
-
-
+# I created a pipe where I first filtered by state, then filtered by NO impeachment votes
 
 ```
 
