@@ -123,9 +123,11 @@ impeach %>%
 
 ```{r}
 
+impeach %>% 
+  filter(for_impeachment=="NO") %>% 
+  arrange(pct_bachelors)
 
-
-
+# I first filtered the data by NO impeachment votes, then had that data arranged by bachelor's percentage
 
 ```
 
