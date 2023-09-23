@@ -48,8 +48,10 @@ impeach
 
 ```{r}
 
+impeach %>% 
+  filter(for_impeachment=="NO")
 
-
+# I selected the impeach table, created a pipe, and filtered for "NO" votes on impeachment
 
 
 
