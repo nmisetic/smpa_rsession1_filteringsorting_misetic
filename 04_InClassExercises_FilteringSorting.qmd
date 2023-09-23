@@ -1,6 +1,6 @@
 ---
 title: "In Class Exercises - Sorting and Filtering"
-author: "Your Name Here"
+author: "Nikola Misetic"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
