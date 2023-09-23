@@ -111,9 +111,10 @@ impeach %>%
 
 ```{r}
 
+impeach %>% 
+  arrange(pct_bachelors)
 
-
-
+# I created a new impeach pipe with an arrange function, which arranges the data from lowest to highest by default
 
 
 ```
